@@ -56,10 +56,17 @@ class LinkedList {
             System.out.println("underflow");
         } else {
             Node save = first;
+            if(save.link ==null){
+                first=null;
+                top=null;
+
+            }
+           else{
             while (save.link.link != null) {
                 save = save.link;
             }
             save.link = null;
+           }
         }
     }
 
