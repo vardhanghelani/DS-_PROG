@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class   {
+public class  StringRecognizer {
 
 
     public static boolean isRecognizable(String str) {

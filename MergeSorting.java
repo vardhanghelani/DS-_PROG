@@ -5,7 +5,7 @@ public class MergeSorting {
         int[] arr = {12, 11, 13, 5, 6, 10, 13};
         int low = 0;
         int high = arr.length;
-// System.out.println(low+" "+high);
+
         Sorting s = new Sorting();
         s.mergeSort(arr, low, high-1);
         s.print(arr);
@@ -64,10 +64,7 @@ class Sorting {
             arr[k] = b[k];
         }
 
-        // int temp = arr[0];
-        // arr[0] = arr[arr.length - 1];
-        // arr[arr.length - 1] = temp;
-
+       
     }
 
     public void print(int arr[]){
